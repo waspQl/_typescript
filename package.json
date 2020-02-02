@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint '**'",
     "test": "if test $(npx ts-node src/app.ts ) = 'dave'; then echo yes; else echo 'Error' && exit 1; fi"
   },
   "author": "",
