@@ -1,1 +1,1 @@
-export var cat: string = 'dave';
+export const cat = 'dave';
