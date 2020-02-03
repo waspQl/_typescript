@@ -6,8 +6,6 @@
     "lint": "eslint --ext .js,.ts .",
     "test": "if test $(npx ts-node src/app.ts ) = 'dave'; then echo yes; else echo 'Error' && exit 1; fi"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "2.18.0",
     "@typescript-eslint/parser": "2.18.0",
